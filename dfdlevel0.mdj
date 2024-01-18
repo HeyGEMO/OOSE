@@ -1,0 +1,1944 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAGJXlHOQPVxuq8=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGJXlHOQPVyd/8=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJXlMsuvWzks0=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"font": "Arial;13;0",
+							"left": 320,
+							"top": 216,
+							"width": 169,
+							"height": 145
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJXlN8MvW6xjs=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"font": "Arial;20;0",
+							"left": 352,
+							"top": 272,
+							"width": 145,
+							"height": 52,
+							"text": "News App"
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXlRhk/XJAl0=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXlRhk/XHCuI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXmOdBvg62+4=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlRhk/XJAl0="
+									},
+									"font": "Arial;16;0",
+									"left": 98,
+									"top": 149,
+									"width": 109,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlRhlPXPV6c=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlRhk/XJAl0="
+									},
+									"font": "Arial;16;0",
+									"left": 98,
+									"top": 149,
+									"width": 109,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlRhlPXKG6c=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlRhk/XJAl0="
+									},
+									"font": "Arial;16;0",
+									"left": 98,
+									"top": 154,
+									"width": 109,
+									"height": 32,
+									"text": "News Managemennt",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlRhlPXL4lE=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlRhk/XJAl0="
+									},
+									"font": "Arial;16;0",
+									"top": -8,
+									"height": 16
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 88,
+							"top": 144,
+							"width": 129,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXlRhlPXKG6c="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXlSl0vXUDJ8=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXlSl0vXS+fA="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXmOdB/hAYw0=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlSl0vXUDJ8="
+									},
+									"font": "Arial;16;0",
+									"left": 98,
+									"top": 365,
+									"width": 109,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlSl0vXa8jI=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlSl0vXUDJ8="
+									},
+									"font": "Arial;16;0",
+									"left": 98,
+									"top": 365,
+									"width": 109,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlSl0vXVMhg=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlSl0vXUDJ8="
+									},
+									"font": "Arial;16;0",
+									"left": 98,
+									"top": 370,
+									"width": 109,
+									"height": 32,
+									"text": "Content Management",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlSl0vXWL34=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlSl0vXUDJ8="
+									},
+									"font": "Arial;16;0",
+									"left": -40,
+									"top": 48,
+									"height": 16
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 88,
+							"top": 360,
+							"width": 129,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXlSl0vXVMhg="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXlTHNPXfyeo=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXlTHM/XdNx8="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXmOdB/hG4O0=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlTHNPXfyeo="
+									},
+									"font": "Arial;16;0",
+									"left": 586,
+									"top": 149,
+									"width": 117,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlTHNPXloQE=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlTHNPXfyeo="
+									},
+									"font": "Arial;16;0",
+									"left": 586,
+									"top": 149,
+									"width": 117,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlTHNPXgcJE=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlTHNPXfyeo="
+									},
+									"font": "Arial;16;0",
+									"left": 586,
+									"top": 154,
+									"width": 117,
+									"height": 32,
+									"text": "News Type Management",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlTHNPXhXZE=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlTHNPXfyeo="
+									},
+									"font": "Arial;16;0",
+									"left": 216,
+									"top": 48,
+									"height": 16
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 576,
+							"top": 144,
+							"width": 137,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXlTHNPXgcJE="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXlTd+/Xq7F4=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXlTd+/XoP+w="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXmOdCPhMHlI=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlTd+/Xq7F4="
+									},
+									"font": "Arial;16;0",
+									"left": 586,
+									"top": 365,
+									"width": 109,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlTd/PXwKjw=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlTd+/Xq7F4="
+									},
+									"font": "Arial;16;0",
+									"left": 586,
+									"top": 365,
+									"width": 109,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlTd/PXrECc=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlTd+/Xq7F4="
+									},
+									"font": "Arial;16;0",
+									"left": 586,
+									"top": 370,
+									"width": 109,
+									"height": 32,
+									"text": "Article Managemet",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXlTd/PXsoEI=",
+									"_parent": {
+										"$ref": "AAAAAAGJXlTd+/Xq7F4="
+									},
+									"font": "Arial;16;0",
+									"left": -64,
+									"top": 120,
+									"height": 16
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 576,
+							"top": 360,
+							"width": 129,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXlTd/PXrECc="
+							}
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXls9I/bXBmw=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "216:192;329:254",
+							"headEndStyle": 2,
+							"tailEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXltZGvbam2A=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "216:384;328:320",
+							"headEndStyle": 2,
+							"tailEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXltxmvbd0ss=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "480:256;576:192",
+							"headEndStyle": 2,
+							"tailEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXluE4vbgaqc=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "480:320;575:378",
+							"headEndStyle": 2,
+							"tailEndStyle": 2
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXmPSCfhbjhY=",
+							"_parent": {
+								"$ref": "AAAAAAGJXlHOQPVyd/8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXmPSCPhZTN4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXmPSCvhhbzk=",
+									"_parent": {
+										"$ref": "AAAAAAGJXmPSCfhbjhY="
+									},
+									"font": "Arial;22;0",
+									"left": 226,
+									"top": 517,
+									"width": 340,
+									"height": 22
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXmPSCfhc1R4=",
+									"_parent": {
+										"$ref": "AAAAAAGJXmPSCfhbjhY="
+									},
+									"font": "Arial;22;0",
+									"left": 226,
+									"top": 522,
+									"width": 340,
+									"height": 22,
+									"text": "First Level DFD - News App",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXmPSCfhdjVw=",
+									"_parent": {
+										"$ref": "AAAAAAGJXmPSCfhbjhY="
+									},
+									"font": "Arial;22;0",
+									"height": 22
+								}
+							],
+							"font": "Arial;22;0",
+							"left": 216,
+							"top": 512,
+							"width": 360,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXmPSCfhc1R4="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAGJXlIyC/V2FuY=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Process1"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXlRhk/XHCuI=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "News Managemennt"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXlSl0vXS+fA=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Content Management"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXlTHM/XdNx8=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "News Type Management"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXlTd+/XoP+w=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Article Managemet"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXmPSCPhZTN4=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "First Level DFD - News App"
+				},
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGJXqoCxPhndR8=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "DFDDiagram2",
+					"ownedViews": [
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJXqpG0fhqd3E=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"left": 344,
+							"top": 248,
+							"width": 136,
+							"height": 120
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJXqpRcPhtsHw=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;22;0",
+							"left": 360,
+							"top": 288,
+							"width": 121,
+							"height": 60,
+							"text": "News App"
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXq2tR/h8sls=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXq2tR/h6Wy0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq2tSPiCyAI=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq2tR/h8sls="
+									},
+									"font": "Arial;20;0",
+									"left": 114,
+									"top": 93,
+									"width": 117,
+									"height": 20
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq2tSPh9pDQ=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq2tR/h8sls="
+									},
+									"font": "Arial;20;0",
+									"left": 114,
+									"top": 98,
+									"width": 117,
+									"height": 40,
+									"text": "News Management",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq2tSPh+CL4=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq2tR/h8sls="
+									},
+									"font": "Arial;20;0",
+									"left": 16,
+									"top": -24,
+									"height": 20
+								}
+							],
+							"font": "Arial;20;0",
+							"left": 104,
+							"top": 88,
+							"width": 137,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXq2tSPh9pDQ="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXq2zrviHgdQ=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXq2zrviFYgc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq2zr/iNOU0=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq2zrviHgdQ="
+									},
+									"font": "Arial;20;0",
+									"left": 114,
+									"top": 213,
+									"width": 116.73828125,
+									"height": 20
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq2zrviIrlw=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq2zrviHgdQ="
+									},
+									"font": "Arial;20;0",
+									"left": 114,
+									"top": 218,
+									"width": 116.73828125,
+									"height": 40,
+									"text": "Article Management",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq2zrviJOvg=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq2zrviHgdQ="
+									},
+									"font": "Arial;20;0",
+									"left": -32,
+									"height": 20
+								}
+							],
+							"font": "Arial;20;0",
+							"left": 104,
+							"top": 208,
+							"width": 136.73828125,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXq2zrviIrlw="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXq26h/iSCq8=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXq26h/iQRxc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq26h/iYbKo=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq26h/iSCq8="
+									},
+									"font": "Arial;20;0",
+									"left": 114,
+									"top": 317,
+									"width": 109,
+									"height": 20
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq26h/iT46U=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq26h/iSCq8="
+									},
+									"font": "Arial;20;0",
+									"left": 114,
+									"top": 322,
+									"width": 109,
+									"height": 40,
+									"text": "Content Managemet",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq26h/iUSiU=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq26h/iSCq8="
+									},
+									"font": "Arial;20;0",
+									"left": -16,
+									"top": -8,
+									"height": 20
+								}
+							],
+							"font": "Arial;20;0",
+							"left": 104,
+							"top": 312,
+							"width": 129,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXq26h/iT46U="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXq3Ab/id7wI=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXq3Ab/ibujE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq3Ab/ijR6Y=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq3Ab/id7wI="
+									},
+									"font": "Arial;20;0",
+									"left": 114,
+									"top": 429,
+									"width": 116.73828125,
+									"height": 20
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq3Ab/ieZy8=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq3Ab/id7wI="
+									},
+									"font": "Arial;20;0",
+									"left": 114,
+									"top": 434,
+									"width": 116.73828125,
+									"height": 40,
+									"text": "News type Management",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq3Ab/ifpoc=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq3Ab/id7wI="
+									},
+									"font": "Arial;20;0",
+									"left": -32,
+									"top": -8,
+									"height": 20
+								}
+							],
+							"font": "Arial;20;0",
+							"left": 104,
+							"top": 424,
+							"width": 136.73828125,
+							"height": 73,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXq3Ab/ieZy8="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXq3iA/ioVK0=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXq3iAvimWoM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq3iA/iuTTE=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq3iA/ioVK0="
+									},
+									"font": "Arial;18;0",
+									"left": 650,
+									"top": 85,
+									"width": 109,
+									"height": 18
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq3iA/ipe+o=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq3iA/ioVK0="
+									},
+									"font": "Arial;18;0",
+									"left": 650,
+									"top": 90,
+									"width": 109,
+									"height": 36,
+									"text": "Generate News Report",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq3iA/iqL4Y=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq3iA/ioVK0="
+									},
+									"font": "Arial;18;0",
+									"height": 18
+								}
+							],
+							"font": "Arial;18;0",
+							"left": 640,
+							"top": 80,
+							"width": 129,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXq3iA/ipe+o="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXq35wvizKMs=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXq35wvixDfs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq35wvi5/yI=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq35wvizKMs="
+									},
+									"font": "Arial;18;0",
+									"left": 650,
+									"top": 197,
+									"width": 109,
+									"height": 18
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq35wvi0bLE=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq35wvizKMs="
+									},
+									"font": "Arial;18;0",
+									"left": 650,
+									"top": 202,
+									"width": 109,
+									"height": 54,
+									"text": "Generate Artical Report",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq35wvi1V6o=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq35wvizKMs="
+									},
+									"font": "Arial;18;0",
+									"left": -48,
+									"top": 8,
+									"height": 18
+								}
+							],
+							"font": "Arial;18;0",
+							"left": 640,
+							"top": 192,
+							"width": 129,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXq35wvi0bLE="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXq4Oufi+F5A=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXq4Oufi8cxc="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq4OuvjEaQY=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq4Oufi+F5A="
+									},
+									"font": "Arial;18;0",
+									"left": 650,
+									"top": 309,
+									"width": 109,
+									"height": 18
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq4Oufi/pCQ=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq4Oufi+F5A="
+									},
+									"font": "Arial;18;0",
+									"left": 650,
+									"top": 314,
+									"width": 109,
+									"height": 54,
+									"text": "Generate Content Report",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq4OufjAjdk=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq4Oufi+F5A="
+									},
+									"font": "Arial;18;0",
+									"left": -32,
+									"top": 24,
+									"height": 18
+								}
+							],
+							"font": "Arial;18;0",
+							"left": 640,
+							"top": 304,
+							"width": 129,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXq4Oufi/pCQ="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXq4pGvjJYp0=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXq4pGvjHhUs="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq4pG/jPD+M=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq4pGvjJYp0="
+									},
+									"font": "Arial;18;0",
+									"left": 650,
+									"top": 421,
+									"width": 109,
+									"height": 18
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq4pGvjKhJ8=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq4pGvjJYp0="
+									},
+									"font": "Arial;18;0",
+									"left": 650,
+									"top": 426,
+									"width": 109,
+									"height": 54,
+									"text": "Generate NewsType Report",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXq4pGvjLfWE=",
+									"_parent": {
+										"$ref": "AAAAAAGJXq4pGvjJYp0="
+									},
+									"font": "Arial;18;0",
+									"left": -56,
+									"top": 56,
+									"height": 18
+								}
+							],
+							"font": "Arial;18;0",
+							"left": 640,
+							"top": 416,
+							"width": 129,
+							"height": 81,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXq4pGvjKhJ8="
+							}
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrMsIvkPYDo=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "328:216;328:216"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrNIovkSQL4=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "240:144;360:267",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrNt8vkWFNM=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "72:312;72:312"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrOLW/kZKPI=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "240:232;344:296",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrPBifkeO/4=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "232:336;352:336",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrPZsvklxu8=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "384:432;384:432"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrQJKvkpeJk=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "240:456;366:353",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrQ3sfktQC0=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "464:272;640:120",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrRjGvkxSVY=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "480:296;640:232",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrSYOvk2utc=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "480:312;639:338",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXrTUwfk61yk=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "464:344;640:456",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXrUIfPlCVys=",
+							"_parent": {
+								"$ref": "AAAAAAGJXqoCxPhndR8="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXrUIfPlAo+I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrUIfflIZuo=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrUIfPlCVys="
+									},
+									"font": "Arial;22;0",
+									"left": 266,
+									"top": 533,
+									"width": 316,
+									"height": 22
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrUIfPlDe3s=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrUIfPlCVys="
+									},
+									"font": "Arial;22;0",
+									"left": 266,
+									"top": 538,
+									"width": 316,
+									"height": 22,
+									"text": "First Level DFD - News App",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrUIfPlEXXk=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrUIfPlCVys="
+									},
+									"font": "Arial;22;0",
+									"height": 22
+								}
+							],
+							"font": "Arial;22;0",
+							"left": 256,
+							"top": 528,
+							"width": 336,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXrUIfPlDe3s="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXq2tR/h6Wy0=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "News Management"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXq2zrviFYgc=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Article Management"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXq26h/iQRxc=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Content Managemet"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXq3Ab/ibujE=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "News type Management"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXq3iAvimWoM=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Generate News Report"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXq35wvixDfs=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Generate Artical Report"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXq4Oufi8cxc=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Generate Content Report"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXq4pGvjHhUs=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Generate NewsType Report"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXrUIfPlAo+I=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "First Level DFD - News App"
+				},
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAGJXrZ9hPlYJSU=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "DFDDiagram3",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXriakPldrzs=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXriakPlb2v4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXriakflj7f0=",
+									"_parent": {
+										"$ref": "AAAAAAGJXriakPldrzs="
+									},
+									"font": "Arial;13;0",
+									"left": 82,
+									"top": 285,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXriakPleeuE=",
+									"_parent": {
+										"$ref": "AAAAAAGJXriakPldrzs="
+									},
+									"font": "Arial;13;0",
+									"left": 82,
+									"top": 290,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "Admin",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXriakflfyRc=",
+									"_parent": {
+										"$ref": "AAAAAAGJXriakPldrzs="
+									},
+									"font": "Arial;13;0",
+									"left": -72,
+									"top": 168,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 72,
+							"top": 280,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXriakPleeuE="
+							}
+						},
+						{
+							"_type": "EllipseView",
+							"_id": "AAAAAAGJXrjEqvlofZ8=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"left": 320,
+							"top": 256,
+							"width": 112,
+							"height": 96
+						},
+						{
+							"_type": "UMLTextView",
+							"_id": "AAAAAAGJXrjNsflr0bg=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"left": 336,
+							"top": 288,
+							"width": 85.8798828125,
+							"height": 38,
+							"text": "Module Management"
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXrlHAflzpFw=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXrlHAflx+ek="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlHAfl59+c=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlHAflzpFw="
+									},
+									"font": "Arial;18;0",
+									"left": 634,
+									"top": 93,
+									"width": 119.4326171875,
+									"height": 18
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlHAfl0HM4=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlHAflzpFw="
+									},
+									"font": "Arial;18;0",
+									"left": 634,
+									"top": 98,
+									"width": 119.4326171875,
+									"height": 36,
+									"text": "Manage News Details",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlHAfl1N80=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlHAflzpFw="
+									},
+									"font": "Arial;18;0",
+									"height": 18
+								}
+							],
+							"font": "Arial;18;0",
+							"left": 624,
+							"top": 88,
+							"width": 139.4326171875,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXrlHAfl0HM4="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXrlf6vl+wg4=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXrlf6vl8VgI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlf6vmET1o=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlf6vl+wg4="
+									},
+									"font": "Arial;18;0",
+									"left": 634,
+									"top": 181,
+									"width": 117,
+									"height": 18
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlf6vl/Zpw=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlf6vl+wg4="
+									},
+									"font": "Arial;18;0",
+									"left": 634,
+									"top": 186,
+									"width": 117,
+									"height": 36,
+									"text": "Manage Article Details",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlf6vmAI7k=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlf6vl+wg4="
+									},
+									"font": "Arial;18;0",
+									"left": -32,
+									"top": 16,
+									"height": 18
+								}
+							],
+							"font": "Arial;18;0",
+							"left": 624,
+							"top": 176,
+							"width": 137,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXrlf6vl/Zpw="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXrlyufmJjaQ=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXrlyufmH9sw="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlyufmPbug=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlyufmJjaQ="
+									},
+									"font": "Arial;16;0",
+									"left": 634,
+									"top": 261,
+									"width": 117,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlyufmKlW8=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlyufmJjaQ="
+									},
+									"font": "Arial;16;0",
+									"left": 634,
+									"top": 266,
+									"width": 117,
+									"height": 32,
+									"text": "Manage Content Details",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrlyufmL2T4=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrlyufmJjaQ="
+									},
+									"font": "Arial;16;0",
+									"left": -40,
+									"top": 16,
+									"height": 16
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 624,
+							"top": 256,
+							"width": 137,
+							"height": 57,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXrlyufmKlW8="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXrmLCfmUWyU=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXrmLCfmSrUI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrmLCvmaQ30=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrmLCfmUWyU="
+									},
+									"font": "Arial;16;0",
+									"left": 634,
+									"top": 333,
+									"width": 117,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrmLCvmVsGc=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrmLCfmUWyU="
+									},
+									"font": "Arial;16;0",
+									"left": 634,
+									"top": 338,
+									"width": 117,
+									"height": 48,
+									"text": "Manage NewsType Details",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrmLCvmWdjY=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrmLCfmUWyU="
+									},
+									"font": "Arial;16;0",
+									"left": -40,
+									"top": 16,
+									"height": 16
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 624,
+							"top": 328,
+							"width": 137,
+							"height": 68,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXrmLCvmVsGc="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXrm5Kvmf4jo=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXrm5KfmdwYU="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrm5Kvmlk78=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrm5Kvmf4jo="
+									},
+									"font": "Arial;16;0",
+									"left": 634,
+									"top": 421,
+									"width": 117,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrm5Kvmgrm4=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrm5Kvmf4jo="
+									},
+									"font": "Arial;16;0",
+									"left": 634,
+									"top": 426,
+									"width": 117,
+									"height": 48,
+									"text": "Manage Wheather News Details",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrm5KvmhMfc=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrm5Kvmf4jo="
+									},
+									"font": "Arial;16;0",
+									"left": -24,
+									"top": 24,
+									"height": 16
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 624,
+							"top": 416,
+							"width": 137,
+							"height": 68,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXrm5Kvmgrm4="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXrnWSvmq5dA=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXrnWSvmo0SI="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrnWSvmw2tI=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrnWSvmq5dA="
+									},
+									"font": "Arial;16;0",
+									"left": 506,
+									"top": 493,
+									"width": 101,
+									"height": 16
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrnWSvmrM24=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrnWSvmq5dA="
+									},
+									"font": "Arial;16;0",
+									"left": 506,
+									"top": 498,
+									"width": 101,
+									"height": 48,
+									"text": "Manage International News Details",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrnWSvmsRDY=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrnWSvmq5dA="
+									},
+									"font": "Arial;16;0",
+									"left": -128,
+									"top": 24,
+									"height": 16
+								}
+							],
+							"font": "Arial;16;0",
+							"left": 496,
+							"top": 488,
+							"width": 121,
+							"height": 68,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXrnWSvmrM24="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXrnvyfm1o5A=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXrnvyPmz4LY="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrnvyfm7miI=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrnvyfm1o5A="
+									},
+									"font": "Arial;18;0",
+									"left": 338,
+									"top": 493,
+									"width": 109,
+									"height": 18
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrnvyfm2Vxo=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrnvyfm1o5A="
+									},
+									"font": "Arial;18;0",
+									"left": 338,
+									"top": 498,
+									"width": 109,
+									"height": 36,
+									"text": "Manage Report",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXrnvyfm3TTw=",
+									"_parent": {
+										"$ref": "AAAAAAGJXrnvyfm1o5A="
+									},
+									"font": "Arial;18;0",
+									"left": -184,
+									"top": -32,
+									"height": 18
+								}
+							],
+							"font": "Arial;18;0",
+							"left": 328,
+							"top": 488,
+							"width": 129,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXrnvyfm2Vxo="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAGJXr6jWvnx/2Y=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"model": {
+								"$ref": "AAAAAAGJXr6jWfnvk5I="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXr6jWvn3KC8=",
+									"_parent": {
+										"$ref": "AAAAAAGJXr6jWvnx/2Y="
+									},
+									"font": "Arial;20;0",
+									"left": 242,
+									"top": 565,
+									"width": 284,
+									"height": 20
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXr6jWvnyF7Y=",
+									"_parent": {
+										"$ref": "AAAAAAGJXr6jWvnx/2Y="
+									},
+									"font": "Arial;20;0",
+									"left": 242,
+									"top": 570,
+									"width": 284,
+									"height": 20,
+									"text": "Second Level DFD - News App",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGJXr6jWvnzfzo=",
+									"_parent": {
+										"$ref": "AAAAAAGJXr6jWvnx/2Y="
+									},
+									"font": "Arial;20;0",
+									"height": 20
+								}
+							],
+							"font": "Arial;20;0",
+							"left": 232,
+							"top": 560,
+							"width": 304,
+							"height": 48,
+							"nameLabel": {
+								"$ref": "AAAAAAGJXr6jWvnyF7Y="
+							}
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXr894vn9J+g=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "192:352;192:352"
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXr9aefoACaU=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "176:296;320:297",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXr+UefoF+Hc=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "424:280;625:115",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXr+wQvoIC38=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "432:288;622:202",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXr/IEvoLkss=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "432:296;625:284",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXr/ZovoOCsM=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "432:312;623:364",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXr/tYvoRzaM=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "416:336;622:438",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXsAHAvoUoqg=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "408:344;525:487",
+							"headEndStyle": 2
+						},
+						{
+							"_type": "FreelineEdgeView",
+							"_id": "AAAAAAGJXsAbgfoX7Ik=",
+							"_parent": {
+								"$ref": "AAAAAAGJXrZ9hPlYJSU="
+							},
+							"font": "Arial;13;0",
+							"lineStyle": 1,
+							"points": "368:352;386:487",
+							"headEndStyle": 2
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXriakPlb2v4=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Admin"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXrlHAflx+ek=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Manage News Details"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXrlf6vl8VgI=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Manage Article Details"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXrlyufmH9sw=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Manage Content Details"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXrmLCfmSrUI=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Manage NewsType Details"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXrm5KfmdwYU=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Manage Wheather News Details"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXrnWSvmo0SI=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Manage International News Details"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXrnvyPmz4LY=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Manage Report"
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAGJXr6jWfnvk5I=",
+					"_parent": {
+						"$ref": "AAAAAAGJXlHOQPVxuq8="
+					},
+					"name": "Second Level DFD - News App"
+				}
+			]
+		}
+	]
+}
